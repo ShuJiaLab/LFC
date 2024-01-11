@@ -29,6 +29,7 @@ graph LR;
         B5-->C13[Fig_2]
             C13-->D13[gaussfit.m] --- E13[Perform 3D Gauss fitting]
             C13-->D14[getProfile.m] --- E14[Get X,Y,Z intensity profiles]
+            C13-->D15[getRxyz.m] --- E15[Get radii in X,Y,Z]
             C13-->D16[volCalc_edgedetect_lf.m] --- E16[Calculate light-field-\nimaged bead volumes]
             C13-->D17[volCalc_edgedetect_wf.m] --- E17[Calculate wide-field-\nimaged bead volumes]
 	
