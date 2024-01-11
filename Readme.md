@@ -129,7 +129,7 @@ This section contains two methods of background subtraction:
 
 > Note this section will need parallel computing for computational acceleration.
 
-#### >>> Sizing - Image Cropping and Ppadding
+#### >>> Sizing - Image Cropping and Padding
 
 * The image cropping is pixel-based and contains two modes:
   * With Circle Masks - only count the three elemental images.
