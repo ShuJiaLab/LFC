@@ -129,11 +129,12 @@ This section contains two methods of background subtraction:
 
 > Note this section will need parallel computing for computational acceleration.
 
-#### >>> TR & CONV - Image Trim and Conversion
+#### >>> Sizing - Image Cropping and Ppadding
 
-* The image trim is pixel-based and contains two modes:
+* The image cropping is pixel-based and contains two modes:
   * With Circle Masks - only count the three elemental images.
   * Without Circle Masks - like normal image cropping
+* The image padding pads the images to be square shape. The images are padded with simulated camera noise.
 
 #### >>> RECON - 3D Reconstruction
 
